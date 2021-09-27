@@ -1,0 +1,53 @@
+/* colour pallete chosen randomly 
+253031 - Charleston Green
+315659 - Dark Slate Grey
+2978A0 - Celadon Blue
+BCAB79 - Ecru
+C6E0FF - Beau Blue
+*/
+
+
+/* css for interface */
+body {
+    background-color: #ededed;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+}
+
+#big-title {
+    background-color: #2978A0;
+    color: white;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.btn-primary {
+    background-color: #2978A0 !important;
+    outline-color: #C6E0FF;
+    border-color: #C6E0FF;
+}
+
+/* css for map */
+
+.country-border {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 0.5px;
+    pointer-events: all;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.background {
+    fill: #f5f5f5;
+    fill-opacity: 0.5;
+}
+
+.continent {
+    fill: #222;
+    stroke: #fff;
+}
+
+.continent :hover {
+    fill: #8a8a8a;
+}

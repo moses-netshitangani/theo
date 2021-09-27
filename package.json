@@ -1,0 +1,23 @@
+{
+  "name": "air-capstone-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.19.0",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "start": "node runserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.cs.uct.ac.za/air-group-2/air-capstone-final.git"
+  },
+  "author": "Theo Madikgetla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
